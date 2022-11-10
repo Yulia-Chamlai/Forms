@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form action="#">
+      <label class="fields">
+        <span>Label</span>
+        <input type="text" placeholder="Text" />
+      </label>
+      <label class="fields">
+        <span>Password</span>
+        <input type="password" placeholder="Enter your password" />
+      </label>
+      <label class="fields">
+        <span>E-mail</span>
+        <input type="email" placeholder="Enter your E-mail" />
+      </label>
+      <label class="fields">
+        <span>Date</span>
+        <input type="date" placeholder="Chose date" />
+      </label>
+      <label class="fields">
+        <span>Time</span>
+        <input type="time" placeholder="Choose time" />
+      </label>
+      <label class="fields">
+        <span>Description</span>
+        <textarea
+          name="Description"
+          placeholder="Enter your description"
+        ></textarea>
+      </label>
+      <label class="fields">
+        <span>Select</span>
+        <select>
+          <option>January</option>
+          <option>Fabruary</option>
+          <option>March</option>
+          <option>April</option>
+          <option>May</option>
+          <option>June</option>
+          <option>July</option>
+          <option>August</option>
+          <option>September</option>
+          <option>October</option>
+          <option>November</option>
+          <option>December</option>
+        </select>
+      </label>
+      <label class="checkbox">
+        <span>Choose</span>
+        <input type="checkbox" />
+        <span class="checkbox__box">
+          <span class="checkbox__icon"></span>
+        </span>
+      </label>
+      <label class="radio">
+        <span>Radio</span>
+        <input type="radio" />
+        <span class="radio__box">
+          <span class="radio__icon"></span>
+        </span>
+      </label>
+
+      <label class="switch"
+        >Toggle
+        <input type="checkbox" id="switch" />
+        <span class="switch__box">
+          <span class="switch__toggle"></span>
+        </span>
+      </label>
+    </form>
+  </body>
+</html>
